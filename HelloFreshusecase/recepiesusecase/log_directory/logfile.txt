@@ -1,0 +1,11 @@
+20/05/28 17:22:11 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+20/05/28 17:22:16 WARN __main__: reading data from source
+20/05/28 17:22:21 WARN __main__: cache the data
+20/05/28 17:22:21 WARN __main__: filtering out null values: null values means invalid data
+20/05/28 17:22:21 WARN __main__: converting the time formats from iso duration format to seconds
+20/05/28 17:22:21 WARN __main__: calculating total time taken to prepare
+20/05/28 17:22:22 WARN __main__: categorizing the recipies based on total time taken in preparing them
+
