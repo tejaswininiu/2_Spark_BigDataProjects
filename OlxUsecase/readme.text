@@ -1,0 +1,30 @@
+Requirement for this usecase is as follows:
+****************************************************************
+Exercise 1: Load sample data from S3 to build an in-memory table in Spark SQL
+Exercise 2: Segment customer base for below 5 lifecycle stages
+Exercise 3: Calculate liquidity
+...Exercise:
+Write a query that creates a fact table fact_item_liquidity with the following information:
+Dimensions:
+date (all dates available in dataset)
+item_id (all items available in dataset)
+Measures:
+# replies received within 1 day
+# replies received within 7 days
+Exercise:
+Write a query that creates a fact table fact_liquidity with the following information (Tip: Use previous table as input):
+Dimensions:
+date (all dates available in dataset)
+Measures:
+# items posted on date
+Liquid items 1 reply within 1 day
+Liquid items 3 replies within 7 days
+Liquid items 5 replies within 7 days
+% liquidity 1 reply within 1 day
+% liquidity 3 replies within 7 days
+% liquidity 5 replies within 7 days
+
+
+********************************************************************
+
+Used Pyspark- Spark SQL in the solution for this usecase.
